@@ -160,7 +160,7 @@ export default function Home() {
                 console.log('Response:', resp);
 
                 // Check if response contains a 'data' field
-                const dataToProcess = resp.data || resp; // Use resp.data if it exists, otherwise use resp directly.
+                const dataToProcess = Array.isArray(resp) ? resp : [resp]; // Ensure resp is always an array.
 
                 dataToProcess.forEach((data: Response) => {
                     if (data.assign === true) {
