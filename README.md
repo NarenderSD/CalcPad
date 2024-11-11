@@ -1,50 +1,37 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CalcPad		
+## Tech Stack: Python, React, Gemini Flash AI API	
 
-Currently, two official plugins are available:
+#
+![Screenshot 2024-11-11 112521](https://github.com/user-attachments/assets/c1086542-c773-414f-a7dd-7ab1c688a7ce)
+#
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2024-11-11 112532](https://github.com/user-attachments/assets/d283b316-4939-45cb-af3b-561265c3bcde)
 
-## Expanding the ESLint configuration
+#
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Screenshot 2024-11-11 112631](https://github.com/user-attachments/assets/9804b6d2-82c8-4c82-9258-f48f7ef5508c)
 
-- Configure the top-level `parserOptions` property like this:
+#
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![Screenshot 2024-11-11 112658](https://github.com/user-attachments/assets/b6420f1e-d260-4e3e-8658-e02b361642e2)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+#
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![Screenshot 2024-11-11 112856](https://github.com/user-attachments/assets/bdea09e9-94cc-4b7c-a892-cb1e3ae301c6)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+#
+
+![Screenshot 2024-11-11 112907](https://github.com/user-attachments/assets/64c3fbea-65e6-4f9e-bf74-ecabc45466cb)
+
+#
+
+![Screenshot 2024-11-11 113225](https://github.com/user-attachments/assets/d8b7f067-17f7-4ffb-ad73-201ea5d68c4c)
+
+
+
+![Screenshot 2024-11-11 113248](https://github.com/user-attachments/assets/9ac7e9bd-da18-4a2d-bf90-36c1f2195746)
+
+
+
